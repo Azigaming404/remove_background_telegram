@@ -2,11 +2,11 @@ import telebot
 import requests
 
 # Ganti 'TOKEN_BOT_ANDA' dengan token bot Telegram Anda
-TOKEN = 'BOT TOKEN MU'
+TOKEN = '6502012385:AAEXhSa3xTRWBSZL3TTTOBFxd1S9XdzB-FY'
 bot = telebot.TeleBot(TOKEN)
 
 # Ganti 'TOKEN_REMOVEBG_API' dengan token API Remove.bg Anda
-REMOVEBG_API_KEY = 'API KEY RMBG MU '
+REMOVEBG_API_KEY = 'VQg3AF5Pfu8hY5T9EzAVGMXj'
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
