@@ -2,7 +2,7 @@ import telebot
 import requests
 
 # Ganti 'TOKEN_BOT_ANDA' dengan token bot Telegram Anda
-TOKEN = '6460839173:AAG_lfMPuUbL_CwYPhRUhpZI4Ag19FTrFfQ'
+TOKEN = '6878249135:AAE1EjAn8QBghSxj7xnr7hhaK13Blmf_p7U'
 bot = telebot.TeleBot(TOKEN)
 
 # Ganti 'TOKEN_REMOVEBG_API' dengan token API Remove.bg Anda
